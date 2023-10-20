@@ -1,14 +1,14 @@
-const affiche =document.getElementById('aff-inp');
+const inputt =document.getElementById('display');
 var operation;
 
-function myDis(n){
-   affiche.innerHTML+=n;
+function afficher(n){
+   inputt.innerHTML+=n;
    if(n=='+' || n=='-' ||n=='*' || n=='/' ){
     operation=n;
    }
   
 }
 
-function myEfac(){
-    affiche.innerHTML='';
+function delet(){
+    inputt.innerHTML='';
 }
