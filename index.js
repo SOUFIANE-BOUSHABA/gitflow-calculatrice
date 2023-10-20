@@ -28,6 +28,15 @@ function calcule(){
         }
         inputt.innerHTML= mult;
         break;
+    case '+':
+        var table = inputt.innerText.split('+');
+        var sum =0;
+        for(let i =0 ; i <table.length;i++){
+            sum += Number(table[i]);
+        }
+        inputt.innerHTML= sum;
+        break;
+
 
       
 
