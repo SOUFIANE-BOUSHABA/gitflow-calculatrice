@@ -1,45 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
-    <title>z.kh calculatrice</title>
+    <title>Calculatrice</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    
-    <div class="cont">
-        <div class="caluclatrice">
-            <h1>calculatrice </h1>
-            <input type="text" name="" id="aff-inp" placeholder="0">
-            <button >C</button>
-            <button >Del</button>
-            <button >%</button>
-            <button >/</button>
-            <button >7</button>
-            <button >8</button>
-            <button >9</button>
-            <button>x</button>
-            <button >4</button>
-            <button >5</button>
-            <button >6</button>
-            <button >-</button>
-            <button >1</button>
-            <button >2</button>
-            <button>3</button>
-            <button >+</button>
-            <button >.</button>
-            <button >0</button>
-            <button  class="egal">=</button>
-
+    <div class="calculator">
+        <div class="screen" id="display"></div>
+        <div class="buttons">
+            <button onclick="delet()">C</button>
+            <button onclick="afficher(7)">7</button>
+            <button onclick="afficher(8)">8</button>
+            <button onclick="afficher(9)">9</button>
+            <button onclick="afficher('/')">/</button>
+            <button onclick="afficher(4)">4</button>
+            <button onclick="afficher(5)">5</button>
+            <button onclick="afficher(6)">6</button>
+            <button onclick="afficher('*')">*</button>
+            <button onclick="afficher(1)">1</button>
+            <button onclick="afficher(2)">2</button>
+            <button onclick="afficher(3)">3</button>
+            <button onclick="afficher('-')">-</button>
+            <button onclick="afficher(0)">0</button>
+            <button onclick="afficher('.')">.</button>
+            <button onclick="calcule()">=</button>
+            <button onclick="afficher('+')">+</button>
+        </div>
     </div>
-
     <script src="index.js"></script>
-
-
-
-
 </body>
 </html>
