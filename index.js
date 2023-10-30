@@ -13,9 +13,7 @@ function delet() {
     inputt.innerHTML = '';
 }
 
-switch (operation) {
 
-}
 
 
 function calcule() {
@@ -51,4 +49,5 @@ function calcule() {
             inputt.innerHTML = sum;
             break;
     }
+
 }
